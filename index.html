@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nikola Pavlov — Social Media Content Creator & Manager</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+     HEADER / NAV
+     ══════════════════════════════════════════ -->
+     <header class="site-header" id="site-header">
+      <nav class="site-nav">
+
+        <ul class="site-nav__menu">
+          <li><a class="site-nav__link" href="#hero">Home</a></li>
+          <li><a class="site-nav__link" href="#about">About</a></li>
+          <li><a class="site-nav__link" href="#skills">Skills</a></li>
+          <li><a class="site-nav__link" href="#work">Work</a></li>
+          <li><a class="site-nav__link" href="#instagram">Social</a></li>
+          <li><a class="site-nav__link" href="#cv">CV</a></li>
+          <li><a class="site-nav__link" href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="site-nav__brand">
+          <img src="visuals/logo/logo-nikola.svg" alt="Nikola Pavlov Logo" class="site-nav__logo-img" />
+          <div class="site-nav__identity">
+            <span class="site-nav__name">Nikola Pavlov</span>
+            <span class="site-nav__title">Social Media Content Creator &amp; Manager</span>
+          </div>
+        </div>
+
+        <button class="site-nav__burger" id="nav-burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span class="site-nav__burger-line"></span>
+          <span class="site-nav__burger-line"></span>
+          <span class="site-nav__burger-line"></span>
+        </button>
+
+      </nav>
+    </header>
+
+<!-- mobile slide-in menu -->
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+
+  <button class="mobile-menu__close" id="mobile-close" aria-label="Close menu">
+    <span></span>
+    <span></span>
+  </button>
+
+  <nav class="mobile-menu__nav">
+    <a class="mobile-menu__link" href="#hero"><span class="mobile-menu__index">01</span>Home</a>
+    <a class="mobile-menu__link" href="#about"><span class="mobile-menu__index">02</span>About</a>
+    <a class="mobile-menu__link" href="#skills"><span class="mobile-menu__index">03</span>Skills</a>
+    <a class="mobile-menu__link" href="#work"><span class="mobile-menu__index">04</span>Work</a>
+    <a class="mobile-menu__link" href="#instagram"><span class="mobile-menu__index">05</span>Social</a>
+    <a class="mobile-menu__link" href="#cv"><span class="mobile-menu__index">06</span>CV</a>
+    <a class="mobile-menu__link" href="#contact"><span class="mobile-menu__index">07</span>Contact</a>
+  </nav>
+
+  <div class="mobile-menu__footer">
+    <a class="mobile-menu__contact" href="mailto:nikola8989@hotmail.com">nikola8989@hotmail.com</a>
+    <div class="mobile-menu__socials">
+      <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="#" target="_blank" rel="noopener">Instagram</a>
+      <a href="#" target="_blank" rel="noopener">Behance</a>
+    </div>
+  </div>
+
+</div>
+
+<div class="mobile-menu__overlay" id="mobile-overlay"></div>
+
+<!-- ══════════════════════════════════════════
+     HERO
+     ══════════════════════════════════════════ -->
+     <section class="hero" id="hero">
+
+      <div class="hero__left">
+        <p class="hero__tag">Hi. My name is...</p>
+        <h1 class="hero__name">Nikola<br><em>Pavlov</em></h1>
+        <p class="hero__role">Social Media Content Creator &amp; Manager</p>
+        <p class="hero__bio">
+          I create scroll-stopping content and manage social media for brands
+          across every channel. From strategy and visuals to video and
+          community. Turning everyday brands into ones people follow.
+        </p>
+        <div class="hero__links">
+          <a href="#work" class="hero__btn hero__btn--solid">View Work</a>
+          <a href="#contact" class="hero__btn hero__btn--ghost">Get in Touch</a>
+        </div>
+        <div class="hero__stack">
+          <span class="hero__stack-item">Social Media Management</span>
+          <span class="hero__stack-item">Content Creation</span>
+          <span class="hero__stack-item">Campaigns</span>
+          <span class="hero__stack-item">Graphic Design</span>
+          <span class="hero__stack-item">Video Editing</span>
+          <span class="hero__stack-item">Meta Ads</span>
+          <span class="hero__stack-item">Event Coordination</span>
+          <span class="hero__stack-item">Web & Frontend</span>
+        </div>
+      </div>
+
+      <div class="hero__right">
+        <div class="logo-design-wrapper">
+          <div id="logo-reload" class="logo-design">
+            <div class="logo-design__circle--red logo-design__circle--red--first"></div>
+            <div class="logo-design__circle--red logo-design__circle--red--second"></div>
+            <div class="logo-design__circle--red logo-design__circle--red--third"></div>
+            <div class="logo-design__circle--red logo-design__circle--red--forth"></div>
+            <div class="logo-design__rect--invisible"></div>
+            <div class="logo-design__rect--blue"></div>
+            <div class="logo-design__circle--yellow logo-design__circle--yellow--first"></div>
+            <div class="logo-design__circle--yellow logo-design__circle--yellow--second"></div>
+            <div class="logo-design__circle--yellow logo-design__circle--yellow--third"></div>
+            <div class="logo-design__circle--green"></div>
+            <div class="logo-design__logo-text logo-design__logo-text--left">Nikola Pavlov</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__scroll">
+        <div class="hero__scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+
+    </section>
+
+<!-- ══════════════════════════════════════════
+     ABOUT
+     ══════════════════════════════════════════ -->
+     <section class="about" id="about">
+      <div class="about__inner">
+
+        <div class="about__left">
+          <p class="about__section-label" data-reveal data-reveal-delay="1">About</p>
+          <h2 class="about__headline" data-reveal data-reveal-delay="2">
+            Content that<br><em>connects</em><br>and converts.
+          </h2>
+          <p class="about__statement" data-reveal data-reveal-delay="3">
+            Over eleven years across agencies and brands — creating content,
+            running social accounts, and building campaigns that connect.
+            From the first idea to the final post, every detail is intentional.
+          </p>
+          <div class="about__stats" data-reveal data-reveal-delay="4">
+            <div>
+              <div class="about__stat-number">11<span>+</span></div>
+              <div class="about__stat-label">Years experience</div>
+            </div>
+            <div>
+              <div class="about__stat-number">4<span>+</span></div>
+              <div class="about__stat-label">Brands managed</div>
+            </div>
+            <div>
+              <div class="about__stat-number">∞</div>
+              <div class="about__stat-label">Posts created</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__right">
+          <p class="about__services-label" data-reveal data-reveal-delay="1">What I do</p>
+
+          <div class="about__services" data-reveal data-reveal-delay="2">
+
+            <div class="about__service">
+              <span class="about__service-icon material-symbols-outlined">share</span>
+              <div class="about__service-name">Social Media Management</div>
+              <div class="about__service-desc">Running brand accounts day to day — content, scheduling, community.</div>
+            </div>
+
+            <div class="about__service">
+              <span class="about__service-icon material-symbols-outlined">campaign</span>
+              <div class="about__service-name">Campaigns</div>
+              <div class="about__service-desc">Integrated campaigns with clear strategy and sharp creative.</div>
+            </div>
+
+            <div class="about__service">
+              <span class="about__service-icon material-symbols-outlined">brush</span>
+              <div class="about__service-name">Graphic Design</div>
+              <div class="about__service-desc">Visual identity, print, and brand systems built to last.</div>
+            </div>
+
+            <div class="about__service">
+              <span class="about__service-icon material-symbols-outlined">movie</span>
+              <div class="about__service-name">Video Editing</div>
+              <div class="about__service-desc">Reels and short-form video edited in Premiere &amp; After Effects.</div>
+            </div>
+
+            <div class="about__service">
+              <span class="about__service-icon material-symbols-outlined">ads_click</span>
+              <div class="about__service-name">Meta Ads</div>
+              <div class="about__service-desc">Paid campaigns on Facebook &amp; Instagram, optimised for ROI.</div>
+            </div>
+
+            <div class="about__service">
+              <span class="about__service-icon material-symbols-outlined">photo_camera</span>
+              <div class="about__service-name">Content Creation</div>
+              <div class="about__service-desc">Scroll-stopping posts, carousels, and reels built for each platform.</div>
+            </div>
+
+            
+
+            
+
+
+
+            <div class="about__service">
+              <span class="about__service-icon material-symbols-outlined">event</span>
+              <div class="about__service-name">Event Coordination</div>
+              <div class="about__service-desc">End-to-end event planning, branding, and on-site execution.</div>
+            </div>
+
+            <div class="about__service">
+              <span class="about__service-icon material-symbols-outlined">code</span>
+              <div class="about__service-name">Web &amp; Frontend</div>
+              <div class="about__service-desc">Developer's eye when it's needed.</div>
+            </div>
+
+          </div>
+
+          <div class="about__industries" data-reveal data-reveal-delay="3">
+            <span class="about__industry-tag">Travel</span>
+            <span class="about__industry-tag">Hospitality</span>
+            <span class="about__industry-tag">Real Estate</span>
+            <span class="about__industry-tag">Retail</span>
+            <span class="about__industry-tag">Tech</span>
+            <span class="about__industry-tag">Fashion</span>
+            <span class="about__industry-tag">NGO</span>
+            <span class="about__industry-tag">Finance</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+<!-- ══════════════════════════════════════════
+     SKILLS
+     ══════════════════════════════════════════ -->
+     <section class="skills" id="skills">
+
+      <div class="skills__header" data-reveal>
+        <p class="skills__section-label">Core Skills</p>
+        <h2 class="skills__headline">The <em>full</em> toolkit.</h2>
+      </div>
+
+      <div class="skills__grid">
+
+        <div class="skills__category" data-reveal data-reveal-delay="1">
+          <div class="skills__category-header">
+            <span class="skills__category-index">01</span>
+            <h3 class="skills__category-title">Content &amp; Social</h3>
+          </div>
+          <ul class="skills__list">
+            <li class="skills__item"><span class="skills__item-dot"></span><span class="skills__item-name">Content Creation</span></li>
+            <li class="skills__item"><span class="skills__item-dot"></span><span class="skills__item-name">Social Media Strategy</span></li>
+            <li class="skills__item"><span class="skills__item-dot"></span><span class="skills__item-name">Content Planning</span></li>
+            <li class="skills__item"><span class="skills__item-dot"></span><span class="skills__item-name">Community Management</span></li>
+            <li class="skills__item"><span class="skills__item-dot"></span><span class="skills__item-name">Copywriting</span></li>
+          </ul>
+        </div>
+
+        <div class="skills__category" data-reveal data-reveal-delay="2">
+          <div class="skills__category-header">
+            <span class="skills__category-index">02</span>
+            <h3 class="skills__category-title">Creative &amp; Video</h3>
+          </div>
+          <ul class="skills__list">
+            <li class="skills__item"><span class="skills__item-dot"></span><span class="skills__item-name">Adobe Photoshop</span></li>
+            <li class="skills__item"><span class="skills__item-dot"></span><span class="skills__item-name">Adobe Illustrator</span></li>
+            <li class="skills__item"><span class="skills__item-dot"></span><span class="skills__item-name">Adobe Premiere Pro</span></li>
+            <li class="skills__item"><span class="skills__item-dot"></span><span class="skills__item-name">Adobe After Effects</span></li>
+            <li class="skills__item"><span class="skills__item-dot"></span><span class="skills__item-name">Visual Communication</span></li>
+          </ul>
+        </div>
+
+        <div class="skills__category" data-reveal data-reveal-delay="3">
+          <div class="skills__category-header">
+            <span class="skills__category-index">03</span>
+            <h3 class="skills__category-title">Marketing &amp; Campaigns</h3>
+          </div>
+          <ul class="skills__list">
+            <li class="skills__item"><span class="skills__item-dot"></span><span class="skills__item-name">Meta Ads</span></li>
+            <li class="skills__item"><span class="skills__item-dot"></span><span class="skills__item-name">Campaign Planning</span></li>
+            <li class="skills__item"><span class="skills__item-dot"></span><span class="skills__item-name">Branding</span></li>
+            <li class="skills__item"><span class="skills__item-dot"></span><span class="skills__item-name">Performance Monitoring</span></li>
+            <li class="skills__item"><span class="skills__item-dot"></span><span class="skills__item-name">Event Coordination</span></li>
+          </ul>
+        </div>
+
+        <div class="skills__category" data-reveal data-reveal-delay="4">
+          <div class="skills__category-header">
+            <span class="skills__category-index">04</span>
+            <h3 class="skills__category-title">Technical</h3>
+          </div>
+          <ul class="skills__list">
+            <li class="skills__item"><span class="skills__item-dot"></span><span class="skills__item-name">HTML</span></li>
+            <li class="skills__item"><span class="skills__item-dot"></span><span class="skills__item-name">CSS</span></li>
+            <li class="skills__item"><span class="skills__item-dot"></span><span class="skills__item-name">JavaScript</span></li>
+            <li class="skills__item"><span class="skills__item-dot"></span><span class="skills__item-name">Front-End Development</span></li>
+          </ul>
+        </div>
+
+      </div>
+
+    </section>
+
+<!-- ══════════════════════════════════════════
+     WORK
+     ══════════════════════════════════════════ -->
+     <section class="work" id="work">
+
+      <div class="work__header" data-reveal>
+        <div class="work__header-left">
+          <p class="work__section-label">Selected Work</p>
+          <h2 class="work__headline">From Concept   <em>to Feed</em>.</h2>
+        </div>
+        <span class="work__count" id="work-count"></span>
+      </div>
+
+      <div class="work__tabs" role="tablist" aria-label="Work categories">
+        <button class="work__tab is-active" data-tab="all"      role="tab">All</button>
+        <button class="work__tab"           data-tab="social"   role="tab">Social Posts</button>
+        <button class="work__tab"           data-tab="video"    role="tab">Video / Reels</button>
+        <!-- <button class="work__tab"           data-tab="campaign" role="tab">Campaigns</button> -->
+        <button class="work__tab"           data-tab="brand"    role="tab">Branding</button>
+        <button class="work__tab"           data-tab="event"    role="tab">Events</button>
+      </div>
+
+      <div class="work__grid" id="work-grid"></div>
+      <div class="work__empty" id="work-empty"><p>No pieces in this category yet.</p></div>
+
+      <!-- Replace your existing work__lightbox block with this -->
+      <div class="work__lightbox" id="work-lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+        <div class="work__lightbox-inner">
+          <button class="work__lightbox-close" id="lb-close">Close ✕</button>
+          <button class="work__lightbox-nav work__lightbox-prev" id="lb-prev" aria-label="Previous">&#8592;</button>
+          <img class="work__lightbox-img" id="lb-img" src="" alt="" />
+          <button class="work__lightbox-nav work__lightbox-next" id="lb-next" aria-label="Next">&#8594;</button>
+          <p class="work__lightbox-caption" id="lb-caption"></p>
+          <span class="work__lightbox-counter" id="lb-counter"></span>
+          <a class="work__lightbox-view" id="lb-view" href="#" target="_blank" rel="noopener noreferrer">
+            <span class="material-symbols-outlined">open_in_new</span>
+            View
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+<!-- ══════════════════════════════════════════
+     SOCIAL / CLIENTS
+     ══════════════════════════════════════════ -->
+     <section class="ig" id="instagram">
+
+      <div class="ig__header" data-reveal>
+        <div class="ig__header-left">
+          <p class="ig__section-label">Accounts I Manage</p>
+          <h2 class="ig__headline">Helping <em>Brands</em> Grow</h2>
+        </div>
+        <p class="ig__header-note">
+          Brands and campaigns I contribute to through social media strategy, content creation, and digital communication.
+        </p>
+      </div>
+
+      <div class="ig__grid">
+
+        <article class="ig__card" data-reveal data-reveal-delay="1">
+          <div class="ig__card-top">
+            <div class="ig__avatar" data-initials="">
+             <img src="visuals/logo/fibula.jpg">
+           </div>
+           <div class="ig__identity">
+            <span class="ig__name">Fibula Travel Macedonia</span>
+            <span class="ig__category">Travel Agency</span>
+          </div>
+        </div>
+        <p class="ig__desc">
+          Destinations, seasonal offers, and travel campaigns across all channels.
+        </p>
+        <div class="ig__stat">
+          <span class="ig__stat-num">8000+ </span>
+          <span class="ig__stat-label">Posts Managed (including previous account)</span>
+        </div>
+        <div class="ig__platforms">
+          <a class="ig__platform" href="https://www.instagram.com/fibulatravelmk/" target="_blank" rel="noopener" aria-label="Instagram">
+            <span class="material-symbols-outlined">photo_camera</span>Instagram
+          </a>
+          <a class="ig__platform" href="https://www.facebook.com/fibulatravelmk" target="_blank" rel="noopener" aria-label="Facebook">
+            <span class="material-symbols-outlined">thumb_up</span>Facebook
+          </a>
+          <a class="ig__platform" href="https://www.linkedin.com/company/fibulatravelmk" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <span class="material-symbols-outlined">work</span>LinkedIn
+          </a>
+          <a class="ig__platform" href="https://www.tiktok.com/@fibulatravelmk" target="_blank" rel="noopener" aria-label="TikTok">
+            <span class="material-symbols-outlined">music_note</span>TikTok
+          </a>
+        </div>
+      </article>
+
+      <article class="ig__card" data-reveal data-reveal-delay="2">
+        <div class="ig__card-top">
+          <div class="ig__avatar" data-initials="">
+           <img src="visuals/logo/cbs.jpg">
+         </div>
+         <div class="ig__identity">
+          <span class="ig__name">CBS International Macedonia</span>
+          <span class="ig__category">Real Estate</span>
+        </div>
+      </div>
+      <p class="ig__desc">
+        Property listings, market insight, and brand content for the Macedonian market.
+      </p>
+      <div class="ig__stat">
+        <span class="ig__stat-num">500+</span>
+        <span class="ig__stat-label">Posts Managed</span>
+      </div>
+      <div class="ig__platforms">
+        <a class="ig__platform" href="https://www.instagram.com/cbs.macedonia/" target="_blank" rel="noopener" aria-label="Instagram">
+          <span class="material-symbols-outlined">photo_camera</span>Instagram
+        </a>
+        <a class="ig__platform" href="https://www.linkedin.com/company/cbs-international-macedonia/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <span class="material-symbols-outlined">work</span>LinkedIn
+        </a>
+      </div>
+    </article>
+
+    <article class="ig__card" data-reveal data-reveal-delay="3">
+      <div class="ig__card-top">
+        <div class="ig__avatar" data-initials="">
+        	<img src="visuals/logo/cush.jpg">
+        </div>
+        <div class="ig__identity">
+          <span class="ig__name">Cushman &amp; Wakefield | CBS International Austria</span>
+          <span class="ig__category">Commercial Real Estate</span>
+        </div>
+      </div>
+      <p class="ig__desc">
+        Corporate real estate content and brand presence for the Austrian market.
+      </p>
+      <div class="ig__stat">
+        <span class="ig__stat-num">120+</span>
+        <span class="ig__stat-label">Posts Managed (including all profiles)</span>
+      </div>
+      <div class="ig__platforms">
+        <a class="ig__platform" href="https://www.linkedin.com/company/cushman-wakefield-cbs-austria/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <span class="material-symbols-outlined">work</span>LinkedIn
+        </a>
+        <a class="ig__platform" href="https://www.instagram.com/cushwakecbs.austria/" target="_blank" rel="noopener" aria-label="Instagram">
+          <span class="material-symbols-outlined">photo_camera</span>Instagram
+        </a>
+      </div>
+    </article>
+
+    <article class="ig__card" data-reveal data-reveal-delay="4">
+      <div class="ig__card-top">
+        <div class="ig__avatar" data-initials="">
+        	<img src="visuals/logo/izgrev.jpg">
+        </div>
+        <div class="ig__identity">
+          <span class="ig__name">Hotel Izgrev Spa &amp; Aquapark</span>
+          <span class="ig__category">Resort &amp; Spa</span>
+        </div>
+      </div>
+      <p class="ig__desc">
+        Lifestyle content, amenities, and guest experience for the resort brand.
+      </p>
+      <div class="ig__stat">
+        <span class="ig__stat-num">300+</span>
+        <span class="ig__stat-label">Posts Managed</span>
+      </div>
+      <div class="ig__platforms">
+        <a class="ig__platform" href="https://www.instagram.com/hotelizgrev/" target="_blank" rel="noopener" aria-label="Instagram">
+          <span class="material-symbols-outlined">photo_camera</span>Instagram
+        </a>
+        <a class="ig__platform" href="https://www.facebook.com/HotelIzgrevStruga" target="_blank" rel="noopener" aria-label="Facebook">
+          <span class="material-symbols-outlined">thumb_up</span>Facebook
+        </a>
+        <a class="ig__platform" href="https://www.tiktok.com/@hotelizgrev" target="_blank" rel="noopener" aria-label="TikTok">
+          <span class="material-symbols-outlined">music_note</span>TikTok
+        </a>
+      </div>
+    </article>
+
+  </div>
+
+</section>
+
+<!-- ══════════════════════════════════════════
+     CV STRIP
+     ══════════════════════════════════════════ -->
+     <section class="cv" id="cv">
+      <div class="cv__inner">
+
+        <div class="cv__text" data-reveal>
+          <p class="cv__label">Curriculum Vitae</p>
+          <h2 class="cv__headline">Want the full picture? Take my CV.</h2>
+        </div>
+
+        <div class="cv__actions" data-reveal data-reveal-delay="1">
+          <a class="cv__btn cv__btn--solid" href="https://nikola-pavlov.github.io/cv/Nikola-Pavlov_CV.pdf" download>
+            <span class="material-symbols-outlined">download</span>
+            Download CV
+          </a>
+          <a class="cv__btn cv__btn--ghost" href="https://nikola-pavlov.github.io/cv/" target="_blank" rel="noopener">
+            <span class="material-symbols-outlined">visibility</span>
+            View Online
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+<!-- ══════════════════════════════════════════
+     CONTACT
+     ══════════════════════════════════════════ -->
+     <section class="contact" id="contact">
+
+      <div class="contact__inner">
+
+        <div class="contact__left">
+
+          <p class="contact__section-label" data-reveal>Get in Touch</p>
+
+          <h2 class="contact__headline" data-reveal data-reveal-delay="1">
+            Let's create<br>something <em>worth</em><br>following.
+          </h2>
+
+          <p class="contact__statement" data-reveal data-reveal-delay="2">
+            Focused on building engaging social media communication, creative campaigns, and digital brand experiences across content, design, and marketing execution.
+          </p>
+
+          <div class="contact__details" data-reveal data-reveal-delay="3">
+
+            <a class="contact__detail" href="mailto:nikola8989@hotmail.com">
+              <span class="contact__detail-icon material-symbols-outlined">mail</span>
+              <span class="contact__detail-text">
+                <span class="contact__detail-label">Email</span>
+                <span class="contact__detail-value">nikola8989@hotmail.com</span>
+              </span>
+            </a>
+
+            <a class="contact__detail" href="tel:+38970240717">
+              <span class="contact__detail-icon material-symbols-outlined">call</span>
+              <span class="contact__detail-text">
+                <span class="contact__detail-label">Phone</span>
+                <span class="contact__detail-value">+389 70 240 617</span>
+              </span>
+            </a>
+
+            <div class="contact__detail">
+              <span class="contact__detail-icon material-symbols-outlined">location_on</span>
+              <span class="contact__detail-text">
+                <span class="contact__detail-label">Location</span>
+                <span class="contact__detail-value">Partizanski Odredi 103/12, Skopje</span>
+              </span>
+            </div>
+
+          </div>
+
+          <div class="contact__socials" data-reveal data-reveal-delay="4">
+            <a class="contact__social" href="https://www.linkedin.com/in/nikola-pavlov-b0774ba1/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <span class="contact__social-icon material-symbols-outlined">work</span>
+              LinkedIn
+            </a>
+            <a class="contact__social" href="https://www.instagram.com/pavlov.nikola/" target="_blank" rel="noopener" aria-label="Instagram">
+              <span class="contact__social-icon material-symbols-outlined">photo_camera</span>
+              Instagram
+            </a>
+            <a class="contact__social" href="https://www.facebook.com/nikola.pavlov" target="_blank" rel="noopener" aria-label="Facebook">
+              <span class="contact__social-icon material-symbols-outlined">thumb_up</span>
+              Facebook
+            </a>
+          </div>
+
+        </div>
+
+        <div class="contact__right" data-reveal data-reveal-delay="2">
+
+          <form class="contact__form" id="contact-form"
+          action="https://formspree.io/f/xnjrzlaz" method="POST">
+
+          <div class="contact__field">
+            <label class="contact__label" for="cf-name">Name</label>
+            <input class="contact__input" type="text" id="cf-name" name="name"
+            placeholder="Your Name" required />
+          </div>
+
+          <div class="contact__field">
+            <label class="contact__label" for="cf-email">Email Address</label>
+            <input class="contact__input" type="email" id="cf-email" name="email"
+            placeholder="Your Email" required />
+          </div>
+
+          <div class="contact__field">
+            <label class="contact__label" for="cf-subject">Subject</label>
+            <input class="contact__input" type="text" id="cf-subject" name="subject"
+            placeholder="Your Subject" required />
+          </div>
+
+          <div class="contact__field">
+            <label class="contact__label" for="cf-message">Message</label>
+            <textarea class="contact__input contact__textarea" id="cf-message" name="message"
+            rows="5" placeholder="Tell me a little about what you need…" required></textarea>
+          </div>
+
+          <button class="contact__submit" type="submit" id="cf-submit">
+            <span class="contact__submit-text">Send Message</span>
+          </button>
+
+          <p class="contact__status" id="cf-status" role="status" aria-live="polite"></p>
+
+        </form>
+
+      </div>
+
+    </div>
+
+    <footer class="contact__footer">
+      <div class="contact__footer-brand">
+        <img src="visuals/logo/logo-nikola.svg" alt="Nikola Pavlov Logo" class="contact__footer-logo" />
+        <span class="contact__footer-name">Nikola Pavlov</span>
+      </div>
+      <span class="contact__footer-copy">© <span id="cf-year"></span> — All rights reserved</span>
+      <a class="contact__footer-top" href="#hero">Back to top ↑</a>
+    </footer>
+
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
